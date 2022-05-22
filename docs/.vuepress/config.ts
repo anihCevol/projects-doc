@@ -6,6 +6,6 @@ export default defineUserConfig({
   title: "主题演示",
   port:816,
   description: "vuepress-theme-hope 的演示",
-  base: "/",
+  base: "/projects-doc/",
   theme,
 });
