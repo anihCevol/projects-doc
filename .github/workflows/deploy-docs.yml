@@ -36,9 +36,9 @@ jobs:
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 也就是我们刚才生成的 secret
         with:
           # 这是文档部署到的分支名称
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 也就是我们刚才生成的 secret
           branch: gh-pages
           folder: docs/.vuepress/dist
 
